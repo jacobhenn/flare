@@ -2,4 +2,4 @@
 
 dead simple TUI flashcards.
 
-[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
+[![asciicast](https://asciinema.org/a/xVDlFy9O2rQRiSEExlvVAbVcv.png)](https://asciinema.org/a/xVDlFy9O2rQRiSEExlvVAbVcv)
