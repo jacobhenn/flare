@@ -1,0 +1,17 @@
+[package]
+name = "flare"
+version = "0.1.0-alpha"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+crossterm = "0.25"
+dirs = "4.0.0"
+rand = "0.8.5"
+
+[dependencies.clap]
+version = "4"
+default-features = false
+features = ["std", "wrap_help", "usage","error-context",  "derive"]
