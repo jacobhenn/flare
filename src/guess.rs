@@ -37,8 +37,6 @@ pub fn run(args: RunArgs) -> Result<()> {
 
     let mut stats = Stats::new(&sets, &set_names);
 
-    println!();
-
     let (_, columns) = terminal::size()?;
     let (_, mut column) = cursor::position()?;
     if column >= columns - 1 {
