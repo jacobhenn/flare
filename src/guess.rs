@@ -50,7 +50,9 @@ pub fn run(args: RunArgs) -> Result<()> {
             .collect();
         indices.shuffle(&mut rng);
         for (set, term) in indices {
-            guesses_left -= 1;
+            if !args.endless {
+                guesses_left -= 1;
+            }
 
             let (key, val) = &sets[set].terms[term];
 
